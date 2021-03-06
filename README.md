@@ -3,6 +3,8 @@
 Hi, this project is aimed at giving everyone a free open source discord bot template, this was coded by me with help from discord.js, you can find the discord.js website from [here](https://discord.js.org/#/).
 We belive is open source software (oss) and my aim for this is to give people not so experianced with javascript and nodejs a template for some code and describe exactly what it does so people can understand.
 
+# Make sure node.js is installed
+
 # FAQ:
 Q) What is it? 
 A) This is a node.js discord bot "server".
