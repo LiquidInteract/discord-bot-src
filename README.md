@@ -28,3 +28,5 @@ A) Yes, its relatively easy to add onto the bot
 8) you can now use the generated link to add the bot to your server
 
 Just remember to change the bot token
+
+# Make Sure you download and run it from the folder
