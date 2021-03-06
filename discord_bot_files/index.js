@@ -18,7 +18,8 @@ client.on('message', msg => {
 //to here
 client.on('message', msg => {
     if (msg.content === '-help') {
-      msg.reply('-github shows the github where the custom template was made ');
+      msg.reply('-github : shows the github where the custom template was made');
+      msg.reply('-version : Shows the version of the bot');
     }
 })
 
@@ -27,14 +28,6 @@ client.on('message', msg => {
       msg.reply('-Version: 1.0.0');
     }
 })
-
-client.on('message', msg => {
-    if (msg.content === '-help') {
-      msg.reply('-version : Shows the version of the bot');
-    }
-})
-
-//add more lines here for more commands
 
 client.on('message', message => {
   if (message.channel.type -= 'text' || message.author.bot)
