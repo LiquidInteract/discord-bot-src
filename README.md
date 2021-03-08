@@ -32,3 +32,5 @@ A) Yes, its relatively easy to add onto the bot
 Just remember to change the bot token
 
 # Make Sure you download and run it from the folder
+
+[Alt text](https://i.imgur.com/CpPw5PY.png)
