@@ -33,4 +33,7 @@ Just remember to change the bot token
 
 # Make Sure you download and run it from the folder
 
-[Alt text](https://i.imgur.com/CpPw5PY.png)
+<p align="center">
+  <img src="https://i.imgur.com/CpPw5PY.png" width="350" title="hover text">
+</p>
+
