@@ -21,22 +21,22 @@ A) It's relatively easy to add onto the bot.
 
 # Steps on how to set up
 
-1) Go to <a href="https://discord.com/developers">https://discord.com/developers</a>
-2) Create a new bot
-3) Within that bot you just made, make an application
-4) Get the bot token and copy it to your clipboard
-5) Paste the bot token at
+1. Go to <a href="https://discord.com/developers">https://discord.com/developers</a>
+2. Create a new bot
+3. Within that bot you just made, make an application
+4. Get the bot token and copy it to your clipboard
+5. Paste the bot token at
 ```js 
 const token = 'Your token goes here';
 ```
-on line 4 of index.js
-6) Now, you can either execute the start.bat file, or you can just manually type out
+on line 4 of index.js<br>
+6. Now, you can either execute the start.bat file, or you can just manually type out
 ```shell
 node index.js
 ```
-to start the bot server yourself
-7) Go to https://discordapi.com/permissions.html and enter the client id for the application
-8) You can now use the generated link to add the bot to your server
+to start the bot server yourself<br>
+7. Go to https://discordapi.com/permissions.html and enter the client id for the application
+8. You can now use the generated link to add the bot to your server
 
 Just remember to change the bot token, as shown on step 5
 
