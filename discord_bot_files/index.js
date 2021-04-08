@@ -8,14 +8,14 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
 
-//command info 1, this is the code that the bot will use and read to be able to send the message in chat
-//remove from here (if you dont want -info to credit)
+// command info 1: this code defines the -github command to credit the author of this template
+// remove this segment if you do not want this command to be used
 client.on('message', msg => {
     if (msg.content === '-github') {
-      msg.reply('This was made with a custom template from LiquidInteracts github');
+      msg.reply('This was made with a custom template from LiquidInteract\'s github page at: https://github.com/LiquidInteract');
     }
 })
-//to here
+// command info 2: this code defines the -help command to display a list of commands availible
 client.on('message', msg => {
     if (msg.content === '-help') {
       msg.reply('-github : shows the github where the custom template was made');
@@ -52,7 +52,7 @@ client.on('message', message => {
       let minutes = Math.floor(client.uptime / 60000) % 60;
       let seconds = Math.floor(client.uptime / 1000) % 60;
 
-      message.channel.send(`BOT Uptime:\n${days}d ${hours}h ${minutes}m ${seconds}s
+      message.channel.send(`Bot uptime:\n${days}d ${hours}h ${minutes}m ${seconds}s
 `);
 
       

@@ -1,4 +1,4 @@
-@echo
-title Discord BOT
-echo if you see this the batch file has been loaded
+echo on
+title discord bot
+echo if this text is displayed, then the batch file has been executed correctly
 node index.js
